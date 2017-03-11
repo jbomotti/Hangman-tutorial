@@ -1,0 +1,41 @@
+
+
+.outline {
+	outline: 1px solid orange;
+	color: steelblue;
+	/*width: auto;*/
+	height: 30px;
+}
+
+.dead-space {
+	outline: 1px solid lime;
+}
+
+.top-items {
+	height: 200px;
+	padding: 10px;
+}
+
+#game-buttons {
+	background-color: black;
+	color: lime;
+	/*float:right;*/
+}
+
+#game-display {
+	background-color: purple;
+	color: white;
+	/*float: right;*/
+}
+
+#game-score {
+	background-color: blue;
+	color: yellow;
+	/*float: right;	*/
+}
+
+.metrics {
+	outline: 1px solid purple;
+	margin: 10px;
+
+}
