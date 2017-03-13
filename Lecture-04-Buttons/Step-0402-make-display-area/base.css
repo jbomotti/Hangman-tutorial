@@ -11,15 +11,29 @@
 }
 
 .top-items {
-	height: 200px;
+/*	height: auto;
 	padding: 10px;
+*/}
+
+.table-tile {
+	height: 100px;
 }
 
+/* Display Table*/
+#display-table {
+	background-image: url("https://media.newsela.com/article_media/2016/08/frankenstein-anniversary-1e909306.jpg.885x497_q90_box-0%2C298%2C1366%2C1066_crop_detail.jpg");
+	background-size: 100%;
+}
+
+
+
+/*Buttons area*/
+
 #button-row {
-  position: absolute;
+ /* position: absolute;
   top: 50%;
   left:50%;
-  transform: translate(-50%,-50%);
+  transform: translate(50%,10%);*/
 }
 
 #game-buttons {
@@ -41,7 +55,7 @@
 }
 
 .metrics {
-	outline: 1px solid purple;
-	margin: 10px;
+	/*outline: 1px solid purple;*/
+	/*margin: 10px;*/
 
 }
