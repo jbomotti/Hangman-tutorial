@@ -17,6 +17,8 @@
 
 .table-tile {
 	height: 100px;
+	background-color: whitesmoke;
+	opacity:.98;
 }
 
 /* Display Table*/

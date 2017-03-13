@@ -7,6 +7,7 @@
 3. Make a table tag
 	- insert 3 tr's
 	- insert td in each (3x)
+	- insert id name for each row
 	- insert content into each tile (tile #)
 4. Create classes and ids 
 	- table: .table (Bootstrap) .display-table
@@ -21,3 +22,7 @@
 	- set as backgorund image for #display-table (CSS)
 	- adjust height & width to 100% to allow for full image
 	- set background-size to 100% to preserve the picture
+
+6. Style the Tile
+	- Set tile color to smoke white
+	- set opacity at .98 (98%)
