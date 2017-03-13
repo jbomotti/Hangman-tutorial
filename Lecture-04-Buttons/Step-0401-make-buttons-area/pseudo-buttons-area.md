@@ -13,15 +13,6 @@
 	- add .outline .col-md-4 to distribute evenly
 	- add .btn-block to take up the block space
 
-4. Vertical and Horizontally center the button block
-	- css transform: translate (-50%, -50%) from CSS Tricks
- 	- set up code in CSS for #button-row
- 		- Dump search from CSS tricks"center w bootstrap.."
- 		- `#button-row {`
-			  `position: absolute;`
-			  `top: 50%;`
-			  `left:50%;`
-			  `transform: translate(-50%,-50%);`
-			`}`
+4. Get rid or "top-items" CSS
 
 5. Celebrate!
