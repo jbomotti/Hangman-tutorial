@@ -14,3 +14,6 @@
 x. Adjust the width of the scoring elements
 	- comment out "Scoring area" in CSS file
 	- CSS height at 150px (matches display at 3x100px tiles)
+x. Style the game scoring area
+	- add `h3` tags to the main areas
+	- add `text-align: center;` to `.score` css (center)

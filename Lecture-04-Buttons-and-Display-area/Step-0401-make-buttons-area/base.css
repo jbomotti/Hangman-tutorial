@@ -1,9 +1,24 @@
 
-
 .outline {
 	outline: 1px solid orange;
 	color: steelblue;
 	/*width: auto;*/
+}
+
+#display-table {
+	background-image: url("https://media.newsela.com/article_media/2016/08/frankenstein-anniversary-1e909306.jpg.885x497_q90_box-0%2C298%2C1366%2C1066_crop_detail.jpg");
+	background-size: 100%;
+	/*background-repeat: no-repeat;*/
+	height: 300px;
+	width: 450px;
+
+}
+
+
+.table-tile {
+	height: 100px;
+	background-color: whitesmoke;
+	opacity:.8;
 }
 
 .dead-space {
