@@ -1,5 +1,3 @@
-
-
 .outline {
 	outline: 1px solid orange;
 	color: steelblue;
@@ -11,9 +9,9 @@
 }
 
 .top-items {
-/*	height: auto;
+	height: auto;
 	padding: 10px;
-*/}
+}
 
 .table-tile {
 	height: 100px;
@@ -25,39 +23,4 @@
 #display-table {
 	background-image: url("https://media.newsela.com/article_media/2016/08/frankenstein-anniversary-1e909306.jpg.885x497_q90_box-0%2C298%2C1366%2C1066_crop_detail.jpg");
 	background-size: 100%;
-}
-
-
-
-/*Buttons area*/
-
-#button-row {
- /* position: absolute;
-  top: 50%;
-  left:50%;
-  transform: translate(50%,10%);*/
-}
-
-#game-buttons {
-	/*background-color: black;*/
-	/*color: lime;*/
-	/*float:right;*/
-}
-
-#game-display {
-	/*background-color: purple;*/
-	/*color: white;*/
-	/*float: right;*/
-}
-
-#game-score {
-	/*background-color: blue;*/
-	/*color: yellow;*/
-	/*float: right;	*/
-}
-
-.metrics {
-	/*outline: 1px solid purple;*/
-	/*margin: 10px;*/
-
 }
