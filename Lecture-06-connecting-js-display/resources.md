@@ -16,3 +16,6 @@ I've referred to in order to build this stage of the game.
 outside of your code base.  This link has a list of shortcuts for 
 styling your file.
 
+[MDN DOM API](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
+
+- methods you can use to interact with DOM elements
