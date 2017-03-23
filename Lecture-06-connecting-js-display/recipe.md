@@ -8,4 +8,4 @@ Recipe for changes to this code base
 	- getting rid of extra lines and unused sections for readability
 
 - Clean up the HTML file
-- [html] Change the title tag content to 'hangman'
+- [html] Change the title tag content to 'hangPic'
