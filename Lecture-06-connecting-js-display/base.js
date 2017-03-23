@@ -10,8 +10,10 @@ var guessButton = document.getElementById("guess-button");
 
 // create a function to test for a button action
 
-var testButton = function() {
+var testClick = function() {
 	alert("it worked");
 }
+
+// 
 
 

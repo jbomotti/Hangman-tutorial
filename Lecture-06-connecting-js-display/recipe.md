@@ -30,5 +30,10 @@ Recipe for changes to this code base
 			- [js] var using the getELementById method
 
 		- create a simple test function in js ("alert")
-		- add 
+		- add an event method for the button variable
+			-
+
+
+
+			<!-- this.innerHTML.toUpperCase() -->
 
