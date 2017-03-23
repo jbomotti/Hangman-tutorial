@@ -21,10 +21,10 @@ Recipe for changes to this code base
 		- add 'use strict' to top of page
 		- add a simple alert() function
 		- comment out the js line
-	
+	xx. build action in a Guess button
+		- [html] add id for the 3 button (e.g #guess-button)
 
 		- create a variable for the start button
-			- [html] go to the start button element and add an id 'start-button'
 			- [js] var using the getELementById method
 			- create a simple test function in js ("alert")
 
