@@ -15,3 +15,6 @@ Recipe for changes to this code base
 	## Moving on to JS
 
 	xx. Create a new JS file
+	xx. Link the JS file to the html page
+		- research 'how to link a js file to html' (Google it)
+		
