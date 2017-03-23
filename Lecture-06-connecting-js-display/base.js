@@ -1,8 +1,13 @@
 // adding use strict to get more error messages from JS
 "use strict";
 
-var startButton = document.getElementById("start-button");
+// world's most simple test for the link to the html file:
+// alert("Yup. The .js file is linked!");
 
-var testButton = function () {
-	alert("it worked");
-}
+// var startButton = document.getElementById("start-button");
+
+// var testButton = function () {
+// 	alert("it worked");
+// }
+
+
