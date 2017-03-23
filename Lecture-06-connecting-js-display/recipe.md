@@ -17,4 +17,10 @@ Recipe for changes to this code base
 	xx. Create a new JS file
 	xx. Link the JS file to the html page
 		- research 'how to link a js file to html' (Google it)
-		
+	xx. Create a simple "test" action for my link
+		- add 'use strict' to top of page
+		- create a variable for the start button
+			- [html] go to the start button element and add an id 'start-button'
+			- [js] var using the getELementById method
+			- create a simple test function in js ("alert")
+

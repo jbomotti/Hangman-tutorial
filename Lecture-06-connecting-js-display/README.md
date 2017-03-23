@@ -28,6 +28,12 @@
 		- inner html
 		- css styling commands
 	- Math object methods
+	- Creating basic Functions
+	- JS Browser actions
+		> prompt()
+		> console.log()
+		> alert()
+
 	STRETCH tasks
 	- Control Flow (stretch)
 	- Event driven methods	
