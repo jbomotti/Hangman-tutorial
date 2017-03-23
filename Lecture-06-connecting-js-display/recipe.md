@@ -8,4 +8,5 @@ Recipe for changes to this code base
 	- getting rid of extra lines and unused sections for readability
 
 - Clean up the HTML file
-- [html] Change the title tag content to 'hangPic'
+	- [html] Change the title tag content to 'hangPic'
+	-	get rid of the second .container (bootstrap class) in the buttons area.  Not necessary. formerly lines 36 and 50.
