@@ -6,7 +6,7 @@ I've referred to in order to build this stage of the game.
 
 ## Advanced Stuff
 
-[Traversing Terminal Cheat sheet] (http://keeppositive.github.io/Tad-Docs/Basics/terminal.html)
+(http://keeppositive.github.io/Tad-Docs/Basics/terminal.html "Traversing Terminal Cheat sheet")
 
 - Getting tired of right-arrow back spacing to the beginning of a in the terminal?  Here's a nice little cheat sheet of important short cuts
 
