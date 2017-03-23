@@ -32,9 +32,3 @@
 
 - CSS
 	- CSS visibility property
-
-
-# Let's start building!
-
-xx. Clean up the CSS folder
-	- getting rid of extra lines and unused sections for readability
