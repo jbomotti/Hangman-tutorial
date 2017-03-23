@@ -4,8 +4,8 @@ Recipe for changes to this code base
 
 ## Small changes to set the stage
 
-- Clean up the CSS folder
+- Clean up the CSS file
 	- getting rid of extra lines and unused sections for readability
 
-- [html] Change the title
-xx
+- Clean up the HTML file
+- [html] Change the title tag content to 'hangman'

@@ -25,6 +25,8 @@
 	- Traversing and mutating Arrays
 	- Creating DOM object variables
 		- .documentGetElementById
+		- inner html
+		- css styling commands
 	- Math object methods
 	STRETCH tasks
 	- Control Flow (stretch)
