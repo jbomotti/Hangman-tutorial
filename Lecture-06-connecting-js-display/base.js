@@ -14,6 +14,7 @@ var testClick = function() {
 	alert("it worked");
 }
 
-// 
+//Make a test button
 
+guessButton.onclick = testClick;
 

@@ -12,28 +12,27 @@ Recipe for changes to this code base
 	-	get rid of the second .container (bootstrap class) in the buttons area.  Not necessary. formerly lines 36 and 50.
 
 
-## Moving on to JS
+## Connecting JS to HTML
 
 	xx. Create a new JS file
 
 	xx. Link the JS file to the html page
 		- research 'how to link a js file to html' (Google it)
-
-	xx. Create a simple "test" action for my link
-		- add 'use strict' to top of page
-		- add a simple alert() function
-		- comment out the js line
+		- add 'use strict' to top of .js file
 
 	xx. Build a varible for the Guess button
 		- [html] add id for the 3 button (e.g #guess-button)
-		- [js] create a variable for the guess-button
-			- [js] var using the getELementById method
+		- [js] create a variable in .js called guessButton for the guess-button
+		- [js] assign the html element to this button using using the getELementById method
 
-		- create a simple test function in js ("alert")
-		- add an event method for the button variable
-			-
+	xx. Create a simple "test" function for my link
+		- [js] create a js function called "testClick"
+		- add a simple alert() function inside
+
+	xx. Tie the function to an event
+			-[js] assign the testClick function to your guessButton using the .onclick() method
 
 
 
-			<!-- this.innerHTML.toUpperCase() -->
+
 

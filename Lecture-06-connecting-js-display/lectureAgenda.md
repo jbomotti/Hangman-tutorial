@@ -8,3 +8,10 @@ Lecture Agenda
 
 - JS Arrays
 
+
+
+Exercises
+ 
+ - create action button to interact and change a DOM element
+	 - innerHtml
+	 - style.css

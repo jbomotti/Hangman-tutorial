@@ -23,12 +23,15 @@
 - JavaScript
 	- Creating and using variable
 	- Traversing and mutating Arrays
+
 	- Creating DOM object variables
 		- .documentGetElementById
 		- inner html
 		- css styling commands
+
 	- Math object methods
 	- Creating basic Functions
+	
 	- JS Browser actions
 		> prompt()
 		> console.log()
