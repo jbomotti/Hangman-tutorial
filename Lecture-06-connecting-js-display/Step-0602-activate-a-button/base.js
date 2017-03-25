@@ -6,15 +6,14 @@ var testButton = document.getElementById("guess-button");
 
 // create a function to test for a button action
 
-var testClick = function() {
-	alert("Now inside of the testClick function!");
+var testClick = function(message) {
+	alert(message);
 }
 
 //Make a test button
 
-testButton.onclick = function () {
-	
-	testClick;
+testButton.onclick = function() {
+	testClick('My new Message goes Here!');
 }
 
 
