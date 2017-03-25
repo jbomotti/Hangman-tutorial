@@ -4,6 +4,7 @@
 
 ## Tweaks
 
+	- Folded `recipe.md` into the `README.md` for the subsections
 	- Clean up the CSS file
 		- Get rid of extra lines and unused sections for readability
 		- Wipe out the `.dead-space` stying
