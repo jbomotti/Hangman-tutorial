@@ -1,9 +1,11 @@
-
-
 .outline {
 	outline: 1px solid orange;
 	color: steelblue;
 	/*width: auto;*/
+}
+
+#start-button {
+	background-color: lime;
 }
 
 .dead-space {
