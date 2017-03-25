@@ -2,6 +2,17 @@
 
 ### Starting from the base of: [Previous build](https://github.com/NeuTrix/Hangman-tutorial/tree/master/Lecture-06-connecting-js-display/Step-0601-connect-js-file)
 
+## Our Goal
+The object of this step is to establish a link between an action in 
+the document (the user view of the game) to some behavior in the js
+file (our code).  We'd like to be able to click a button and see 
+something change on the page as a result
+
+## Why this matters
+By making this connection, we'll be able to see how to tie specific
+elements from the user facing web page to actions and logic in our
+.js file.  This is the first step toward making the web game interactive
+
 # Startbuilding!
 ## Activating a "TEST" Button
 
