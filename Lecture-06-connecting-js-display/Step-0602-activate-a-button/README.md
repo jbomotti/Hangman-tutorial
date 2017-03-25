@@ -13,7 +13,7 @@
 
 #### 01. Create a simple "test" function 
 - [js] create a js function called "testClick"
-- add a simple alert() function inside
+- [js] add a simple alert()function inside of it [line]
 
 #### 02. Tie the function to an event
 -[js] assign the testClick function to your guessButton using the .onclick() method
