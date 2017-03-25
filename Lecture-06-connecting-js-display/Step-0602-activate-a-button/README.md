@@ -1,6 +1,6 @@
 # Step-by-Step build process for this section
 
-### Starting from the base of: [Previous build](https://github.com/NeuTrix/Hangman-tutorial/tree/master/Lecture-06-connecting-js-display/Step-0601-connect-js-file)
+### Starting from the base of: [Previous build:`Step-0601-connect-js-file`](https://github.com/NeuTrix/Hangman-tutorial/tree/master/Lecture-06-connecting-js-display/Step-0601-connect-js-file)
 
 ## Our Goal
 The object of this step is to establish a link between an action in 
