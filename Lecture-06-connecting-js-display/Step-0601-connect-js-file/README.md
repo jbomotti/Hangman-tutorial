@@ -10,7 +10,7 @@
 		- Wipe out the `.dead-space` stying
 		- Comment out the `opacity:` in `.table-tile` to hide the image
 
-	### Clean up the HTML file
+	###Clean up the HTML file
 		- Change the title tag content to `Hangman-0601`
 		- Wipe out the `.dead-space` class from the "Rows" 
 			[near line 84]
