@@ -4,13 +4,15 @@
 
 ## Tweaks
 
-### Folded `recipe.md` into the `README.md` for the subsections
-	- Clean up the CSS file
+#### General
+	- Folded `recipe.md` into the `README.md` for the subsections
+	
+#### Clean up the CSS file
 		- Get rid of extra lines and unused sections for readability
 		- Wipe out the `.dead-space` stying
 		- Comment out the `opacity:` in `.table-tile` to hide the image
 
-### Clean up the HTML file
+#### Clean up the HTML file
 		- Change the title tag content to `Hangman-0601`
 		- Wipe out the `.dead-space` class from the "Rows" 
 			[near line 84]
