@@ -12,5 +12,9 @@ var testClick = function() {
 
 //Make a test button
 
-testButton.onclick = testClick;
+testButton.onclick = function () {
+	
+	testClick;
+}
+
 

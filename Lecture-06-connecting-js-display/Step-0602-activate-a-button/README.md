@@ -3,8 +3,9 @@
 ### Starting from the base of: [Previous build](https://github.com/NeuTrix/Hangman-tutorial/tree/master/Lecture-06-connecting-js-display/Step-0601-connect-js-file)
 
 # Startbuilding!
+## Activating a "TEST" Button
 
-#### 0x. Activating the "Test" button
+#### 0x. Renaming the "Test" button
 ```html
 <button class="outline col-md-4 btn-block btn-default" id="guess-button">	
 	TEST
@@ -13,7 +14,7 @@
 - [hmtl] Change the content of the "Guess" button div to "Test"
 
 - Just so we don't forget where this test is linked (in Browser)
-- Can change the content back at a later step
+
 
 #### 0x. Build a varible for the Guess button
 		
@@ -25,6 +26,7 @@ var testButton = document.getElementById("guess-button");
 
 
 #### 01. Create a simple testing function 
+
 ```javascript
 var testClick = function() {
 	alert("Now inside of the testClick function!");
