@@ -2,7 +2,7 @@
 
 ### Starting from the base of: [Previous build](https://github.com/NeuTrix/Hangman-tutorial/tree/master/Lecture-04-Buttons-and-Display-area/Step-0402-make-display-area)
 
-## Changes
+## Tweaks
 
 	- Clean up the CSS file
 		- Get rid of extra lines and unused sections for readability
@@ -20,12 +20,9 @@
 			- Added `<h3>` tags to each tile div
 			[start at line 53, display area, in the `table` tag]
 
-# Startbuilding!
-## Recipe for changes to this code base
+## Startbuilding!
 
-### Starting from the base of: [Previous build](https://github.com/NeuTrix/Hangman-tutorial/tree/master/Lecture-04-Buttons-and-Display-area/Step-0402-make-display-area)
-
-## Connecting JS to HTML
+### Connecting JS to HTML
 
 	01. Create a new JS file
 		- create a new file in this folder named base.js
