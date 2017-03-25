@@ -17,7 +17,7 @@
 
 #### 0x. Build a varible for the Guess button
 		
-- [js] create a variable in .js called `testButton` 
+- [js] create a variable in base.js called `testButton` 
 - [js] assign target html button to this var with `getELementById()`
 
 ```javascript
@@ -25,10 +25,15 @@ var testButton = document.getElementById("guess-button");
 ```
 
 #### 01. Create a simple testing function 
-- [js] Comment out [line 5] alert
 - [js] Create a js function called `testClick`
 - [js] move the simple alert()function [line 5] inside of `testClick`
 - [js] Change the `alert()` message to something new
+
+```javascript
+var testClick = function() {
+	alert("Now inside of the testClick function!");
+}
+```
 
 #### 02. Tie the function to an event
 -[js] assign the testClick function to your guessButton using the .onclick() method
