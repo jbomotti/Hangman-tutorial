@@ -13,16 +13,16 @@
 		- Comment out the `opacity:` in `.table-tile` to hide the image
 
 #### Clean up the HTML file
-		- Change the title tag content to `Hangman-0601`
-		- Wipe out the `.dead-space` class from the "Rows" 
-			[near line 84]
-		- [html] add id for the 3 button (e.g #guess-button)
-		-	Wipe the 2nd `.container`(bootstrap class) in the buttons area
-			- Add a comment about the grid system [ near line 26]
-			[formerly lines 36 and 50.]
-		- Reformat the code for layout for "tiles"
-			- Added `<h3>` tags to each tile div
-			[start at line 53, display area, in the `table` tag]
+	- Change the title tag content to `Hangman-0601`
+	- Wipe out the `.dead-space` class from the "Rows" 
+		[near line 84]
+	- [html] add id for the 3 button (e.g #guess-button)
+	-	Wipe the 2nd `.container`(bootstrap class) in the buttons area
+		- Add a comment about the grid system [ near line 26]
+		[formerly lines 36 and 50.]
+	- Reformat the code for layout for "tiles"
+		- Added `<h3>` tags to each tile div
+		[start at line 53, display area, in the `table` tag]
 
 ## Startbuilding!
 
@@ -31,7 +31,7 @@
 #### 01. Create a new JS file
 	- create a new file in this folder named base.js
 	- add `"use strict";` to 1st line of base.js file
-		- ensures that we can throw better error messages
+	- ensures that we can throw better error messages
 
 #### 02. Link the JS file to the html page
 	- Research 'how to link a js file to html' (Google it)
