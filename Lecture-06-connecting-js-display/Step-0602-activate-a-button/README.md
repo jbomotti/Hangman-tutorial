@@ -16,7 +16,7 @@ elements from the user facing web page to actions and logic in our
 # Startbuilding!
 ## Activating a "TEST" Button
 
-#### 0x. Renaming the "Test" button
+#### 00. Renaming the "Test" button
 ```html
 <button class="outline col-md-4 btn-block btn-default" id="guess-button">	
 	TEST
@@ -27,7 +27,7 @@ elements from the user facing web page to actions and logic in our
 - Just so we don't forget where this test is linked (in Browser)
 
 
-#### 0x. Build a varible for the Guess button
+#### 01. Build a varible for the Guess button
 Inside of the js file:
 		
 ```javascript
@@ -37,7 +37,7 @@ var testButton = document.getElementById("guess-button");
 - Assign target html button to this var with `getELementById()`
 
 
-#### 01. Create a simple testing function 
+#### 02. Create a simple testing function 
 
 - Delte the alert() message on line 5 
 
@@ -60,7 +60,7 @@ var testClick = function(message) {
 - *** This allows us to pass messages into our test
 
 
-#### 02. Tie the function to an event
+#### 03. Tie the function to an event
 
 - Assign and event to your testButton using the .onclick() method
 
@@ -79,5 +79,7 @@ testButton.onclick = function () {
 - Refresh the page and hit your "Test" button
 - Did you get an alert with your message
 
+## What's Next
 
+In our next step, we will work on connecting the display tiles variables in our js file and get them to 'change their state' when we click the `TEST` button. 
 
