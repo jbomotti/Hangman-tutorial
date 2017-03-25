@@ -13,6 +13,8 @@ By making this connection, we'll be able to see how to tie specific
 elements from the user facing web page to actions and logic in our
 .js file.  This is the first step toward making the web game interactive
 
+
+
 # Startbuilding!
 ## Activating a "TEST" Button
 
