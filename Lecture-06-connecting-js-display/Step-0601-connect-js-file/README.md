@@ -1,45 +1,25 @@
-## Step-by-Step build process for this section
+# Step-by-Step build process for this section
 
-# Starting from the base of:  Display
+## Starting from the base of:  
+[Previous build is linked here] ("https://github.com/NeuTrix/Hangman-tutorial/tree/master/Lecture-04-Buttons-and-Display-area/Step-0402-make-display-area")
 
 ## Changes
-- dropped the pseudocode.md file in favor of a ReadMe
-- consolidate (swapped) base.html for index.hmtl (better name)
-	-- contains the last grid file we made in the Display and Grid set up sections
 
-## Goals
-- Set up and test a basic JS link to our frontend HTML
-- Start building an algorithm for user feedback from display tiles
-	- what happens when you get a wrong guess?
-	- he mechnism for 
-		- grabbing a tile, and
-		- changing its 'state' or look in the front end
+	- Clean up the CSS file
+		- Get rid of extra lines and unused sections for readability
+		- Wipe out the `.dead-space` stying
+		- Comment out the `opacity:` in `.table-tile` to hide the image
 
-## What we'll need (to know or use) in order to do this
-- HTML 
-	- DOM. Document Object Model 
-	- Using ids class tags effectively
+	- Clean up the HTML file
+		- Wipe out the `.dead-space` class from the "Rows" 
+			[near line 84]
+		- Change the title tag content to `hangPic`
+		-	Wipe the 2nd `.container`(bootstrap class) in the buttons area
+			- Add a comment about the grid system [ near line 26]
+			[formerly lines 36 and 50.]
+		- Reformat the code for layout for "tiles"
+			- Added `<h3>` tags to each tile div
+			[start at line 53, display area, in the `table` tag]
 
-- JavaScript
-	- Creating and using variable
-	- Traversing and mutating Arrays
-
-	- Creating DOM object variables
-		- .documentGetElementById
-		- inner html
-		- css styling commands
-
-	- Math object methods
-	- Creating basic Functions
-	
-	- JS Browser actions
-		> prompt()
-		> console.log()
-		> alert()
-
-	STRETCH tasks
-	- Control Flow (stretch)
-	- Event driven methods	
-
-- CSS
-	- CSS visibility property
+## Startbuilding!
+Head over to the recipe.md file in this folder.  Good luck!
