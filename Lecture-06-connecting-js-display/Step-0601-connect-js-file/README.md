@@ -1,7 +1,7 @@
 # Step-by-Step build process for this section
 
 ## Starting from the base of:  
-[Previous build is linked here]("https://github.com/NeuTrix/Hangman-tutorial/tree/master/Lecture-04-Buttons-and-Display-area/Step-0402-make-display-area")
+[Previous build is linked here](https://github.com/NeuTrix/Hangman-tutorial/tree/master/Lecture-04-Buttons-and-Display-area/Step-0402-make-display-area)
 
 ## Changes
 
