@@ -6,6 +6,7 @@
 
 #### 0x. Activating the "Test" button
 - [hmtl] Change the content of the "Guess" button div to "Test"
+
 ```<button class="outline col-md-4 btn-block btn-default" id="guess-button">	TEST
 							</button>```
 - Just so we don't forget where this test is linked (in Browser)
@@ -15,7 +16,8 @@
 		
 - [js] create a variable in .js called `testButton` 
 - [js] assign target html button to this var with `getELementById()`
-	```var testButton = document.getElementById("guess-button");```
+
+```var testButton = document.getElementById("guess-button");```
 
 #### 01. Create a simple testing function 
 - [js] Comment out [line 5] alert
