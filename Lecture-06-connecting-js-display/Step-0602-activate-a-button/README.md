@@ -7,8 +7,10 @@
 #### 0x. Activating the "Test" button
 - [hmtl] Change the content of the "Guess" button div to "Test"
 
-```<button class="outline col-md-4 btn-block btn-default" id="guess-button">	TEST
-							</button>```
+``` html
+<button class="outline col-md-4 btn-block btn-default" id="guess-button">	TEST
+							</button>
+```
 - Just so we don't forget where this test is linked (in Browser)
 - Can change the content back at a later step
 
