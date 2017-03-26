@@ -5,7 +5,7 @@
 
 function Tile (htmlId) {
 	// Add some properties of tiles here
-	this.tileId = document.getElementById(htmlId)
+	this.gameTile = document.getElementById(htmlId)
 };
 
 var testTile = new Tile("tile-03")

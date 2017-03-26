@@ -27,7 +27,15 @@ function Tile (hmtlId) {
 	// Add some properties of tiles here
 };
 ```
-#### 0x. Add a property called `tileId` and set it to the html tag using document.getElementById
+#### 0x. Add a property inside of this function called `gameTile` and set it to the corresponding html element using document.getElementById
+```javascript
+function Tile (htmlId) {
+	// Add some properties of tiles here
+	this.gameTile = document.getElementById(htmlId)
+};
+```
+
+
 #### 0x. Make a new variable called testTile
 #### 0x. Add console.log(testTile.tileId) to our test button object
 	- Click the test button to see what happens

@@ -13,8 +13,16 @@ var testClick = function(message) {
 //Make a test button
 
 testButton.onclick = function() {
+	// include a simple test function
 	// testClick('My new Message goes Here!');
-	console.log(testTile.tileId);
-	testTile.titleId.style.css("background-color:","lime");
+
+	// Let's look at our new object BEFORE
+	console.log(testTile.gameTile);
+	
+	// Let's change that element's state on the page
+	testTile.gameTile.style.visibility = "hidden";
+	
+	// Let's look at our new object AFTER
+	console.log(testTile.gameTile);
 
 }
