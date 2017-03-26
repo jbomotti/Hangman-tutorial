@@ -21,22 +21,22 @@ Now we need to rename that file for clarity before we start this build.
 
 ### In your file folder
 
-#### 0x. Change the name of the `base.js` file to `test.js`
+#### 01. Change the name of the `base.js` file to `test.js`
 
-#### 0x. Create a new file called `display.js`
+#### 02. Create a new file called `display.js`
 
 ### In your `index.html` file
 
-#### 0x. Modify the current `script` tag
+#### 03. Modify the current `script` tag
 - Update the src from `base.js` to `test.js`
 ```javascript
 	  <script type="text/javascript" src="test.js"></script>
 ```
-#### 0x. Add a new `script` tag for the new file
+#### 04. Add a new `script` tag for the new file
 ```javascript
 	  <script type="text/javascript" src="display.js"></script>
 ```
-#### 0x. Make sure each of the `tile` elements has a unique id
+#### 05. Make sure each of the `tile` elements has a unique id
 They should look something like this (e.g. for "tile 3")
 ```hmtl
 <td class="outline table-tile" id="tile-03">
@@ -46,13 +46,13 @@ They should look something like this (e.g. for "tile 3")
 
 ### In your `display.js` file
 
-#### 0x. add `"use strict";` at the top for better error messages
+#### 06. add `"use strict";` at the top for better error messages
 
-#### 0x. add a small test script
+#### 07. add a small test script
 ```javascript
 	alert("testing the display page");
 ```
-#### 0x. Refresh your game in the browser to very that the alert is
+#### 08. Refresh your game in the browser to very that the alert is
 working and your js code is linked properly to the html page
 
 
