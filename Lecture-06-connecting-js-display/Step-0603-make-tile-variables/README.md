@@ -51,7 +51,7 @@ structure a bit
 	  <script type="text/javascript" src="display.js"></script>
 ```
 #### 0x. Make sure each of the `tile` elements has a unique id
-They should look something like this
+They should look something like this (e.g. for "tile 3")
 ```hmtl
 <td class="outline table-tile" id="tile-03">
 	<h3>tile 3</h3>
