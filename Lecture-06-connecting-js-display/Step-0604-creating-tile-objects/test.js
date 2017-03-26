@@ -21,8 +21,8 @@ testButton.onclick = function() {
 	
 	// Let's change that element's state on the page
 	testTile.gameTile.style.visibility = "hidden";
-	
+
 	// Let's look at our new object AFTER
 	console.log(testTile.gameTile);
 
-}
+};

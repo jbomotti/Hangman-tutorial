@@ -11,12 +11,12 @@ By creating these objects, we will be able to manipulate their behavior and appe
 ## What you'll need to know
 
 JavaScript
-- [Object basics] (https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics);
+- [Object basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics);
 - [Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
 HTML
 - [document.getElementById](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
-- [element.setAttribute])(https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute)
+- [JS HTML DOM style methods](https://www.w3schools.com/js/js_htmldom_css.asp)
 
 
 ### In your `dispaly.js` folder:
@@ -35,26 +35,44 @@ function Tile (htmlId) {
 };
 ```
 
-
 #### 0x. Make a new variable called testTile
-#### 0x. Add console.log(testTile.tileId) to our test button object
+
+```javascript
+var testTile = new Tile("tile-03")
+```
+
+### In your `test.js` folder:
+
+#### 0x. Add console.log(testTile.gameTile) to our test button object
 	- Click the test button to see what happens
-	- We should see this printed in the console(or alert if you chose that instead)
-#### 0x. Add a state change test to the test button
+```javascript
+	console.log(testTile.gameTile);
+```
+
+#### 0x. Use the test button to change the state of that testTile
 	- by setting the varible to point to an hmtl element, we can apply hmtl methods to it
-	- try changing the style of the testTile with #setAttributes method
+	- inside of your test button event handler, try changing the style of the testTile with style method
 
-#### 0x.
-#### 0x.
-#### 0x.
+```javascript
+	testTile.gameTile.style.visibility = "hidden";
+```
 
+#### 0x. Add console.log(testTile.gameTile) to our test button object, AFTER the last command to see what's changed.  The whole thing should look like this:
 
+```javascript
+testButton.onclick = function() {
+	// include a simple test function
+	// testClick('My new Message goes Here!');
 
-### In your file folder
-#### 0x.
-#### 0x.
-#### 0x.
+	// Let's look at our new object BEFORE
+	console.log(testTile.gameTile);
+	
+	// Let's change that element's state on the page
+	testTile.gameTile.style.visibility = "hidden";
 
-### In your file folder
-#### 0x.
-#### 0x.
+	// Let's look at our new object AFTER
+	console.log(testTile.gameTile);
+
+};
+
+```
