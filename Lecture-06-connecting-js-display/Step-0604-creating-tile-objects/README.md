@@ -11,7 +11,7 @@ By creating these objects, we will be able to manipulate their behavior and appe
 ## What you'll need to know
 
 JavaScript
-- [Object basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics);
+- [Object basics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics)
 - [Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
 HTML
