@@ -1,3 +1,3 @@
 "use strict";
 
-alert("testing the display page");
+// alert("testing the display page");
