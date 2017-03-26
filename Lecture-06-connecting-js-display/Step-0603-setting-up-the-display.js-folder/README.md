@@ -53,8 +53,7 @@ They should look something like this (e.g. for "tile 3")
 ```javascript
 	alert("testing the display page");
 ```
-#### 08. Refresh your game in the browser to very that the alert is
-working and your js code is linked properly to the html page
+#### 08. Refresh your game in the browser to very that the alert is working and your js code is linked properly to the html page
 
 
 
