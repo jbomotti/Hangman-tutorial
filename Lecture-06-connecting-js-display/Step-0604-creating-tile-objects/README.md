@@ -15,9 +15,10 @@ JavaScript
 - [Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
 
-### In your file folder
+### In your `dispaly.js` folder:
 
-#### 0x.
+#### 0x. Create a Tile object constructor
+
 #### 0x.
 
 ### In your file folder

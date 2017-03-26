@@ -1,3 +1,4 @@
 "use strict";
 
-// alert("testing the display page");
+// A simple test function to ensure the file is linked
+alert("testing the display page");
