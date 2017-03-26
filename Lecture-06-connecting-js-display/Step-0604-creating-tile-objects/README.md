@@ -1,23 +1,14 @@
 # Step-by-Step build process for this section
 
-### Starting from the base of: [Previous build:`Step-0603-setting-up-the-display.js-folder`](https://github.com/NeuTrix/Hangman-tutorial/tree/master/Lecture-06-connecting-js-display/Step-0603-setting-up-the-display.js-folder)
+### Starting from the base of [Previous build:`Step-0603-setting-up-the-display.js-folder`](https://github.com/NeuTrix/Hangman-tutorial/tree/master/Lecture-06-connecting-js-display/Step-0603-setting-up-the-display.js-folder)
 
 ## Our Goal
-The object of this step is to set up a new file for our display code.
+The object of this step is create the tile objects in js.
 
 ## Why this matters
-By making this connection, we'll be able to see how to tie specific
-elements from the user facing web page to actions and logic in our
-.js file. 
+By creating these objects, we will be able to manipulate their behavior and appearance base on rules or interaction with the js code
 
-
-# Startbuilding!
-## Cleaning up
-Now that we have more js code coming, we are going to change our file
-structure a bit.
-
-In the last section, we made a base.js file with some test code in it
-Now we need to rename that file for clarity before we start this build.
+## What you'll need to know
 
 ### In your file folder
 
