@@ -50,7 +50,7 @@ structure a bit
 ```javascript
 	  <script type="text/javascript" src="display.js"></script>
 ```
-#### 0x. Make sure each of the tile elements has a unique id
+#### 0x. Make sure each of the `tile` elements has a unique id
 They should look something like this
 ```hmtl
 <td class="outline table-tile" id="tile-03">
