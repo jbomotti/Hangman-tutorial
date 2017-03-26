@@ -1,6 +1,6 @@
 # Step-by-Step build process for this section
 
-### Starting from the base of: [Previous build:`Step-0601-connect-js-file`](https://github.com/NeuTrix/Hangman-tutorial/tree/master/Lecture-06-connecting-js-display/Step-0602-activate-a-test-button)
+### Starting from the base of: [Previous build:`Step-0602-activate-a-test-button`](https://github.com/NeuTrix/Hangman-tutorial/tree/master/Lecture-06-connecting-js-display/Step-0602-activate-a-test-button)
 
 ## Our Goal
 The object of this step is to capture the tile elements in our js file as variables in an array. From there, we'll want to manipulate their 'state' in the browser (e.g. Change their color or visibility) 
