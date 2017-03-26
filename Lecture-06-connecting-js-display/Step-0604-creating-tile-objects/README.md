@@ -21,13 +21,13 @@ HTML
 
 ### In your `dispaly.js` folder:
 
-#### 0x. Create a Tile object constructor that takes an html id name as an argument
+#### 01. Create a Tile object constructor that takes an html id name as an argument
 ```javascript
 function Tile (hmtlId) {
 	// Add some properties of tiles here
 };
 ```
-#### 0x. Add a property inside of this function called `gameTile` and set it to the corresponding html element using document.getElementById
+#### 02. Add a property inside of this function called `gameTile` and set it to the corresponding html element using document.getElementById
 ```javascript
 function Tile (htmlId) {
 	// Add some properties of tiles here
@@ -35,7 +35,7 @@ function Tile (htmlId) {
 };
 ```
 
-#### 0x. Make a new variable called testTile
+#### 03. Make a new variable called testTile using any tile id as an argument
 
 ```javascript
 var testTile = new Tile("tile-03")
@@ -43,13 +43,13 @@ var testTile = new Tile("tile-03")
 
 ### In your `test.js` folder:
 
-#### 0x. Add console.log(testTile.gameTile) to our test button object
+#### 04. Add console.log(testTile.gameTile) to our test button object
 	- Click the test button to see what happens
 ```javascript
 	console.log(testTile.gameTile);
 ```
 
-#### 0x. Use the test button to change the state of that testTile
+#### 05. Use the test button to change the state of that testTile
 	- by setting the varible to point to an hmtl element, we can apply hmtl methods to it
 	- inside of your test button event handler, try changing the style of the testTile with style method
 
@@ -57,7 +57,7 @@ var testTile = new Tile("tile-03")
 	testTile.gameTile.style.visibility = "hidden";
 ```
 
-#### 0x. Add console.log(testTile.gameTile) to our test button object, AFTER the last command to see what's changed.  The whole thing should look like this:
+#### 06. Add console.log(testTile.gameTile) to our test button object, AFTER the last command to see what's changed.  The whole thing should look like this:
 
 ```javascript
 testButton.onclick = function() {
@@ -76,3 +76,5 @@ testButton.onclick = function() {
 };
 
 ```
+
+#### 07.  Click the `Test` button.  A tile should disappear!
