@@ -13,18 +13,24 @@ By creating these objects, we will be able to manipulate their behavior and appe
 JavaScript
 - [Object basics] (https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics);
 - [Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [document.getElementById](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
 
 
 ### In your `dispaly.js` folder:
 
 #### 0x. Create a Tile object constructor that takes an html id name as an argument
 ```javascript
-function Tile (tileId) {
+function Tile (hmtlId) {
 	// Add some properties of tiles here
 };
 ```
+#### 0x. Add a property called `tileId` and set it to the html tag using document.getElementById
+#### 0x.
+
+
 
 ### In your file folder
+#### 0x.
 #### 0x.
 #### 0x.
 
