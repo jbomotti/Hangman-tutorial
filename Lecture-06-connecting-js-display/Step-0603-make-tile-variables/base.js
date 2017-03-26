@@ -14,6 +14,5 @@ var testClick = function(message) {
 
 testButton.onclick = function() {
 	testClick('My new Message goes Here!');
+
 }
-
-

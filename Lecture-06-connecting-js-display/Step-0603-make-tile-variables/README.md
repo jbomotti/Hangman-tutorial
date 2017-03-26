@@ -23,13 +23,39 @@ elements from the user facing web page to actions and logic in our
 
 
 # Startbuilding!
+## Cleaning up
+In the last section, we made a base.js file with some test code in it
+Now we need to rename that file for clarity before we start this build.
+
 ## Grabbing the "tile" variables
 
-In your HTML files
+Now that we have more js code coming, we are going to change our file
+structure a bit
+
+### In your file folder
+#### 0x. Create a new *folder* called `game-javascript`
+#### 0x. Change the name of the `base.js` file to `test.js`
+#### 0x. Create a new file called `tiles.js`
+### In your HTML file
+#### 0x.
+#### 0x.
+#### 0x.
+#### 0x.
+
+
 
 #### 0x. Make sure each of the tile elements has a unique id
+They should look something like this
 ```hmtl
 <td class="outline table-tile" id="tile-03">
 	<h3>tile 3</h3>
 </td>
 ```
+
+### Creating a new js file
+
+- This is a new file that we'll use for our new js code
+- In your HTML file, commeent out the 
+
+#### 0x. Create tile variables
+
