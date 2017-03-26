@@ -1,6 +1,6 @@
 # Step-by-Step build process for this section
 
-### Starting from the base of [Previous build:`Step-0603-setting-up-the-display.js-folder`](https://github.com/NeuTrix/Hangman-tutorial/tree/master/Lecture-06-connecting-js-display/Step-0603-setting-up-the-display.js-folder)
+### Starting from the base of [Previous build:`Step-0701-setting-up-the-display.js-folder`](https://github.com/NeuTrix/Hangman-tutorial/tree/master/Lecture-07-interactive-display-objects/Step-0701-setting-up-the-display.js-folder)
 
 ## Our Goal
 The object of this step is create the tile objects in js.
