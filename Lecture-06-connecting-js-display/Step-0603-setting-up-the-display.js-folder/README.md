@@ -1,6 +1,6 @@
 # Step-by-Step build process for this section
 
-### Starting from the base of: [Previous build:`NOT READY`](google.com)
+### Starting from the base of: [Previous build:`Step-0602-activate-a-test-button`](https://github.com/NeuTrix/Hangman-tutorial/tree/master/Lecture-06-connecting-js-display/Step-0602-activate-a-test-button)
 
 ## Our Goal
 The object of this step is to set up a new file for our display code.
