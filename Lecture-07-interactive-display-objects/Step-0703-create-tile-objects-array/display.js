@@ -9,8 +9,9 @@ function Tile (htmlId) {
 	this.name = htmlId
 };
 
-// Creat a new tile object
+// Creat a new test object
 var testTile = new Tile("tile-03")
+
 
 
 
