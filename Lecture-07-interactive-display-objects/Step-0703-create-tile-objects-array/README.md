@@ -26,11 +26,27 @@ From our last file, we created a few objects simply intended to test our scripts
 
 #### 0x. Move the `alert()` test function and `testTile` var to the `test.js` file, placing them just after the `testButton` variable on line 6
 
-#### 0x.
-#### 0x.
+## Building the `Tile` objects array
+
+### In your `index.html` folder:
+
+#### 0x. Make certain you have a common class name for your tiles
+
+- Look up the common class name for your tiles in html (or make one)
+- In this case, `table-tile` is the one we'll use (`.outline`) is just for design and will eventually be turned off. 
+- Also, the `.outline` class applies to more than just the tile objects
+
+```html
+<td class="outline table-tile" id="tile-02">
+	<h3>tile 2</h3>
+</td>
+```
+### In your `display.js` folder:
+#### 0x. Use getElementsByClassName() to create an array of tiles
+
+
 #### 0x.
 
-### In your `test.js` folder:
 #### 0x.
 #### 0x.
 
