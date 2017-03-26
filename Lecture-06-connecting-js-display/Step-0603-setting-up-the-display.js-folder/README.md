@@ -32,7 +32,8 @@ Now we need to rename that file for clarity before we start this build.
 ```javascript
 	  <script type="text/javascript" src="test.js"></script>
 ```
-#### 04. Add a new `script` tag for the new file
+#### 04. Add a new `script` tag for the new file. 
+- Add it BEFORE the `test.js` script
 ```javascript
 	  <script type="text/javascript" src="display.js"></script>
 ```

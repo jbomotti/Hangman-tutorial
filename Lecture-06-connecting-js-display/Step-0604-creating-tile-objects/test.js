@@ -13,6 +13,8 @@ var testClick = function(message) {
 //Make a test button
 
 testButton.onclick = function() {
-	testClick('My new Message goes Here!');
+	// testClick('My new Message goes Here!');
+	console.log(testTile.tileId);
+	testTile.titleId.style.css("background-color:","lime");
 
 }

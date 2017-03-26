@@ -13,7 +13,10 @@ By creating these objects, we will be able to manipulate their behavior and appe
 JavaScript
 - [Object basics] (https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics);
 - [Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+HTML
 - [document.getElementById](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
+- [element.setAttribute])(https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute)
 
 
 ### In your `dispaly.js` folder:
@@ -25,6 +28,16 @@ function Tile (hmtlId) {
 };
 ```
 #### 0x. Add a property called `tileId` and set it to the html tag using document.getElementById
+#### 0x. Make a new variable called testTile
+#### 0x. Add console.log(testTile.tileId) to our test button object
+	- Click the test button to see what happens
+	- We should see this printed in the console(or alert if you chose that instead)
+#### 0x. Add a state change test to the test button
+	- by setting the varible to point to an hmtl element, we can apply hmtl methods to it
+	- try changing the style of the testTile with #setAttributes method
+
+#### 0x.
+#### 0x.
 #### 0x.
 
 
