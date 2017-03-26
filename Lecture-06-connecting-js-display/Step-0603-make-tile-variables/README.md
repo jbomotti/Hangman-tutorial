@@ -16,6 +16,8 @@ elements from the user facing web page to actions and logic in our
 #### Javascript
 	- creating variables
 	- creating, traversing, and mutating *arrays*
+	- #document.getElementById()
+	- 
 #### HTML
 #### CSS
 
@@ -23,4 +25,11 @@ elements from the user facing web page to actions and logic in our
 # Startbuilding!
 ## Grabbing the "tile" variables
 
-#### 0x. 
+In your HTML files
+
+#### 0x. Make sure each of the tile elements has a unique id
+```hmtl
+<td class="outline table-tile" id="tile-03">
+	<h3>tile 3</h3>
+</td>
+```
