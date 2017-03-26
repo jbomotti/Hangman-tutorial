@@ -17,9 +17,12 @@ JavaScript
 
 ### In your `dispaly.js` folder:
 
-#### 0x. Create a Tile object constructor
-
-#### 0x.
+#### 0x. Create a Tile object constructor that takes an html id name as an argument
+```javascript
+	function Tile (tileId) {
+	// Add some properties of tiles here
+};
+```
 
 ### In your file folder
 #### 0x.
