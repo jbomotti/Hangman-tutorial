@@ -1,59 +1,45 @@
-# Step-by-Step build process for this section
+## Step-by-Step build process for this section
 
-### Starting from the base of: [Previous build:`NOT READY`](google.com)
+# Starting from the base of:  Display
 
-## Our Goal
-The object of this step is to set up a new file for our display code.
+## Changes
+- dropped the pseudocode.md file in favor of a ReadMe
+- consolidate (swapped) base.html for index.hmtl (better name)
+	-- contains the last grid file we made in the Display and Grid set up sections
 
-## Why this matters
-By making this connection, we'll be able to see how to tie specific
-elements from the user facing web page to actions and logic in our
-.js file. 
+## Goals
+- Set up and test a basic JS link to our frontend HTML
+- Start building an algorithm for user feedback from display tiles
+	- what happens when you get a wrong guess?
+	- he mechnism for 
+		- grabbing a tile, and
+		- changing its 'state' or look in the front end
 
+## What we'll need (to know or use) in order to do this
+- HTML 
+	- DOM. Document Object Model 
+	- Using ids class tags effectively
 
-# Startbuilding!
-## Cleaning up
-Now that we have more js code coming, we are going to change our file
-structure a bit.
+- JavaScript
+	- Creating and using variable
+	- Traversing and mutating Arrays
 
-In the last section, we made a base.js file with some test code in it
-Now we need to rename that file for clarity before we start this build.
+	- Creating DOM object variables
+		- .documentGetElementById
+		- inner html
+		- css styling commands
 
-### In your file folder
+	- Math object methods
+	- Creating basic Functions
+	
+	- JS Browser actions
+		> prompt()
+		> console.log()
+		> alert()
 
-#### 0x. Change the name of the `base.js` file to `test.js`
+	STRETCH tasks
+	- Control Flow (stretch)
+	- Event driven methods	
 
-#### 0x. Create a new file called `display.js`
-
-### In your `index.html` file
-
-#### 0x. Modify the current `script` tag
-- Update the src from `base.js` to `test.js`
-```javascript
-	  <script type="text/javascript" src="test.js"></script>
-```
-#### 0x. Add a new `script` tag for the new file
-```javascript
-	  <script type="text/javascript" src="display.js"></script>
-```
-#### 0x. Make sure each of the `tile` elements has a unique id
-They should look something like this (e.g. for "tile 3")
-```hmtl
-<td class="outline table-tile" id="tile-03">
-	<h3>tile 3</h3>
-</td>
-```
-
-### In your `display.js` file
-
-#### 0x. add `"use strict";` at the top for better error messages
-
-#### 0x. add a small test script
-```javascript
-	alert("testing the display page");
-```
-#### 0x. Refresh your game in the browser to very that the alert is
-working and your js code is linked properly to the html page
-
-
-
+- CSS
+	- CSS visibility property
