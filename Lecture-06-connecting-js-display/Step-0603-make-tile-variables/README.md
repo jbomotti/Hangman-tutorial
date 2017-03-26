@@ -33,17 +33,23 @@ Now that we have more js code coming, we are going to change our file
 structure a bit
 
 ### In your file folder
-#### 0x. Create a new *folder* called `game-javascript`
+
 #### 0x. Change the name of the `base.js` file to `test.js`
-#### 0x. Create a new file called `tiles.js`
-### In your HTML file
-#### 0x.
-#### 0x.
-#### 0x.
-#### 0x.
+#### 0x. Create a new file called `display.js`
+- This is a new file that we'll use for our new js code for the display
 
 
+### In your `index.html` file
 
+#### 0x. Modify the current `script` tag
+- Update the src from `base.js` to `test.js`
+```javascript
+	  <script type="text/javascript" src="test.js"></script>
+```
+#### 0x. Add a new `script` tag for the new file
+```javascript
+	  <script type="text/javascript" src="display.js"></script>
+```
 #### 0x. Make sure each of the tile elements has a unique id
 They should look something like this
 ```hmtl
@@ -52,10 +58,15 @@ They should look something like this
 </td>
 ```
 
-### Creating a new js file
+### In your `display.js` file
 
-- This is a new file that we'll use for our new js code
-- In your HTML file, commeent out the 
+#### 0x. add `"use strict";` at the top for better error messages
+#### 0x. add a small test script
+```javascript
+	alert("testing the display page");
+```
+#### 0x. Refresh your game in the browser to very that the alert is
+working and your js code is linked properly to the html page
 
-#### 0x. Create tile variables
+
 
