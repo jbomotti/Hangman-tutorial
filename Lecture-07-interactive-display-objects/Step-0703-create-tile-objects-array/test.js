@@ -4,13 +4,21 @@
 // create a guess button variable
 var testButton = document.getElementById("guess-button");
 
+// A simple test function to ensure the file is linked
+// alert("testing the display page");
+
+// Creat a new test object
+var testTile = new Tile("tile-03")
+
 // create a function to test for a button action
 
 var testClick = function(message) {
 	alert(message);
 }
 
-//Make a test button
+// ***************
+
+//Make a test button event handler
 
 testButton.onclick = function() {
 	// include a simple test function

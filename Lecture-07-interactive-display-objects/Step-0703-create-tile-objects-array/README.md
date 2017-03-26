@@ -22,9 +22,17 @@ HTML
 ## Cleaning up..
 From our last file, we created a few objects simply intended to test our scripts in the browser (the "TEST" button).  Now let's clean these files up a bit by putting all of the 'test' stuff in the `test.js` file.  This will leave us with a cleaner code file for working on the displays.
 
+### In your `display.js` folder:
+
+#### 0x. Move the `alert()` test function and `testTile` var to the `test.js` file, placing them just after the `testButton` variable on line 6
+
+#### 0x.
+#### 0x.
+#### 0x.
+
 ### In your `test.js` folder:
-
-
+#### 0x.
+#### 0x.
 
 
 
