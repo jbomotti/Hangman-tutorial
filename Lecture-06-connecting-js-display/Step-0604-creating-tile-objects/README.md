@@ -19,7 +19,7 @@ JavaScript
 
 #### 0x. Create a Tile object constructor that takes an html id name as an argument
 ```javascript
-	function Tile (tileId) {
+function Tile (tileId) {
 	// Add some properties of tiles here
 };
 ```
