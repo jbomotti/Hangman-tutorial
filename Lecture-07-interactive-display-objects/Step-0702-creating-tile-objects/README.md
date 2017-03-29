@@ -63,14 +63,11 @@ var testTile = new Tile("tile-03")
 testButton.onclick = function() {
 	// include a simple test function
 	// testClick('My new Message goes Here!');
-
-	// Let's look at our new object BEFORE
-	console.log(testTile.gameTile);
 	
 	// Let's change that element's state on the page
 	testTile.gameTile.style.visibility = "hidden";
 
-	// Let's look at our new object AFTER
+	// Let's look at our new object 
 	console.log(testTile.gameTile);
 
 };
