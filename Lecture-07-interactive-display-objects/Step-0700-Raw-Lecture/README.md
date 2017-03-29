@@ -1,3 +1,6 @@
+This is the raw file from the lecture.  Refer to the actual 0701 and 0702 steps for curated instructions.
+
+
 # Step-by-Step build process for this section
 
 ### Starting from the base of: [Previous build:`SStep-0602-activate-a-test-button`](https://github.com/NeuTrix/Hangman-tutorial/tree/master/Lecture-06-connecting-js-display/Step-0602-activate-a-test-button)

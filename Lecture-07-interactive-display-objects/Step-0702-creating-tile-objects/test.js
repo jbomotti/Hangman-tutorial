@@ -14,7 +14,7 @@ var testClick = function(message) {
 
 testButton.onclick = function() {
 	// include a simple test function
-	// testClick('My new Message goes Here!');
+	testClick('My new Message goes Here!');
 
 	// Let's look at our new object BEFORE
 	console.log(testTile.gameTile);
