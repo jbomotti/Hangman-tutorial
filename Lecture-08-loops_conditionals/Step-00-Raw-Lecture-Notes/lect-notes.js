@@ -27,3 +27,41 @@ while(inProgress === true){
 		inProgress = false;
 	};
 };
+
+// *****************************************
+
+// OTHER CLASS NOTES
+/*
+- Build a mini game:  Guess a number.
+- Pseudocode
+- build it from scratch (30-40 minutes)
+- Control Flow
+- Loops
+- Conditionals
+*/
+
+// Conditionals: if this then that
+
+ /*if(condition){
+	code
+} else if(condition) {
+ alternative code
+};*/
+
+
+// "You can get with /this/ or you can get with that"
+// -- Blacksheep
+
+// ?: Can I `this` elsewhere in JS, other than in a function? 
+// Ans: SCOPE...
+
+// function PoolBall(num){
+// 	this.face = num;
+// 	this.roll = function(){
+// 		alert("Rollin', fool");
+// 	}
+// };
+
+// var tenBall = {
+// 	face:10
+// }
