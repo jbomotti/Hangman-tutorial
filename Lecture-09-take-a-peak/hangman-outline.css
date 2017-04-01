@@ -79,10 +79,8 @@
 
   /* Set table background */
   #game-board {
-  	/* Use a pig background image*/
-  	/*background: url("http://kids.nationalgeographic.com/content/dam/kids/photos/animals/Mammals/H-P/pig-full-body.jpg.adapt.945.1.jpg");*/
-  	/* Use a skull for background image */
-  	background: url("../images/art-1296277_960_720.png");
+  	/* Use a Frankenstein background image*/
+  	background: url("https://media.newsela.com/article_media/2016/08/frankenstein-anniversary-1e909306.jpg.885x497_q90_box-0%2C298%2C1366%2C1066_crop_detail.jpg");
   	/* BUG: Must use background size to get image to fit */
   	background-size: 100% 100%;
     background-repeat: no-repeat;
