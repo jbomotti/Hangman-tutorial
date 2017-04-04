@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>hangman</title>
+	
+	<!-- gameplay css -->
+    <link rel="stylesheet" type="text/css" href="hangman-outline.css">
+  <!-- BOOTSTRAP CDN -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+
+  <div class="row" id="top-row">
+  
+  <!-- sta left box -->
+    <div class="col-md-3 top-space outline2" id="top-space-lft">
+
+      <div class="row outline2" id="game-row-1-2">
+        <!-- holding area for the game title -->
+          <div id="game-title">
+            <h1>The Hangup Game</h1>
+          </div> 
+      </div> <!-- end row 1-1-->
+
+      <div class="row outline2" id="game-row-1-2">
+        <!-- sta: Buttons area -->
+             <div class="col-md-4">
+              <!-- Create Button for getting secret word -->
+              <button class="btn btn-primary game-button" id="start-button">START</button>
+             </div>
+             
+             <div class="col-md-4">
+               <!-- Create Button for GUESSING the secret word -->
+              <button class="btn btn-success game-button" id="guess-button">GUESS</button>
+             </div>
+             
+             <div class="col-md-4">
+              <!-- ** Create a "reset" button to reset the game -->
+              <button class="btn btn-warning game-button" id="reset-button">RESET</button>
+             </div>
+             
+        <!-- end button-area -->
+      </div> <!-- end row 1-2-->
+
+    </div> <!-- end right column -->
+  <!-- end left box -->
+  
+  <!-- sta middle box -->
+    <div class="col-md-6 top-space outline2" id="top-space-mid">
+      <!-- start Game display area -->
+        <div id="game-area" class="outine" >
+
+        <table id="game-board" class="outline" >
+
+        <!-- first row -->
+          <tr class="board-rows">
+
+            <td class = "outline" >
+              <div class="board-cells" id="tile01">
+                tile01
+              </div>  
+            </td>
+
+            <td class = "outline" >
+              <div class="board-cells" id="tile02">
+               tile02
+              </div>
+            </td>
+
+            <td class = "outline" >
+              <div class="board-cells" id="tile03">
+               tile03
+              </div>  
+            </td>
+          </tr>
+
+        <!-- second row -->
+          <tr class="board-rows">
+
+            <td class = "outline">
+              <div class="board-cells" id="tile04">
+                tile04
+              </div>  
+            </td>
+            
+            <td class = "outline">
+              <div class="board-cells" id="tile05">
+               tile05
+              </div>
+            </td>
+
+            <td class = "outline">
+              <div class="board-cells" id="tile06">
+               tile06
+              </div>  
+            </td>
+          </tr>
+
+        <!-- third row -->
+          <tr class="board-rows">
+
+            <td class = "outline">
+              <div class="board-cells" id="tile07">
+                tile07
+              </div>  
+            </td>
+
+            <td class = "outline">
+              <div class="board-cells" id="tile08">
+               tile08
+              </div>
+            </td>
+
+            <td class = "outline">
+              <div class="board-cells" id="tile09">
+               tile09
+              </div>  
+            </td>
+          </tr>
+
+        </table>
+
+        </div>
+      <!-- end Game display area -->
+    </div>
+  <!-- end middle box -->
+
+  <!-- sta right box -->
+    <div class="col-md-3 top-space outline2" id="top-space-rgt">
+
+      <div class="row outline2" id="guess-area">
+        <div>
+          <h2>Guesses Remaining </h2>
+        </div>
+      </div> <!-- end guess counter -->
+
+      <!-- show the guesses remaining -->
+      <div class="row outline2" >
+        <h2 id="guess-counter">3</h2>
+      </div> <!-- end remaining-guesses -->
+      
+    </div>
+  <!-- end right box -->
+
+  </div> <!-- end top row  -->
+
+  <div class="row outline2" id="middle-row">
+    <!-- start Target Word  area -->
+      <div class="outline">
+        <!-- Create a table to hold the secret word -->
+        <table id="word-table" class="outline"></table>
+          <!-- <br><br> -->
+        <!-- Create an area to hold a hint -->
+        <h4 id="word-hint" class="outline"> 
+            [Click the "START" button to begin your game!]
+        </h4>
+      </div>    
+    <!-- end   Target Word  area -->
+  </div> <!-- end middle row -->
+
+  <div class="row outline2" id="bottom-row">
+    <!-- Alphabet area -->
+      <div id="alphabet-area" class="outline">
+        <!-- add unordered list of letters -->
+        <ul id="alpha-set">
+          <div>
+            <li >q</li>
+            <li >w</li>
+            <li >e</li>
+            <li >r</li>
+            <li >t</li>
+            <li >y</li>
+            <li >u</li>
+            <li >i</li>
+            <li >o</li>
+            <li >p</li>
+          </div> 
+        
+          <div>
+            <li >a</li>
+            <li >s</li>
+            <li >d</li>
+            <li >f</li>
+            <li >g</li>
+            <li >h</li>
+            <li >j</li>
+            <li >k</li>
+            <li >l</li>
+          </div> 
+         
+          <div>
+            <li >z</li>
+            <li >x</li>
+            <li >c</li>
+            <li >v</li>
+            <li >b</li>
+            <li >n</li>
+            <li >m</li>
+          </div>
+        </ul>
+      </div>
+    <!-- Alphabet area -->
+  </div> <!-- end bottom row -->
+  </div> <!-- end container -->
+
+  <footer id="footer">
+  </footer>
+
+<!-- if you have the buttons come AFTER the js code, it won't run -->
+  <script type="text/javascript" src="hangman.js"></script>
+  <script type="text/javascript" src="hangman-tiler.js"></script>
+
+</body>
+
+  
+
+</html>
+
+
