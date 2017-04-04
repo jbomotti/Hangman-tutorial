@@ -37,14 +37,15 @@ Mow, let's Fix the code for the "Test" button- Making it as a standalone button 
 </button>
 ```
 
-#### 0x. Change the name of the id of the `Test` button (now in the 4th position) from `guess-button` to `test-button`
+#### 0x. Change the name of the id of the `Test` button (now in the 4th position) from `guess-button` to `test-button` and rename it as "Run Tests!"
 
 ```html
 <button class="outline col-md-4 btn-block btn-default" id="test-button">	
-	TEST
+	Run Tests!
 </button>
 ```
-#### 0x
+#### 0x.  Readjust the Bootstrap classe from `col-md-4` to `col-md-3`, allowing for 4 buttons
+
 
 
 
