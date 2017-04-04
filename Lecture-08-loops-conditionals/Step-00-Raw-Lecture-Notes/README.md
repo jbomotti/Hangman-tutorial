@@ -1,6 +1,6 @@
-# Step-by-Step build process for this section
+d# Step-by-Step build process for this section
 
-### Starting from the base of [Previous build:`to 0702`](#)
+
 
 ## Our Goal
 The object of this step is create an array of Tile objects connected to the 3 Tile elements in our html file.
