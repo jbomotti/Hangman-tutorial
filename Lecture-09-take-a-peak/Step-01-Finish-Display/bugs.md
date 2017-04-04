@@ -1,0 +1,1 @@
+- Buttons bleeding over into main display area
