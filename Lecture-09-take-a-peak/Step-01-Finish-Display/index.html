@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>hangPic</title>
+
+  
+  <!-- start Boostrap here -->
+
+    <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- end Boostrap here -->
+
+	<link rel="stylesheet" type="text/css" href="base.css">
+	
+</head>
+
+<body>
+
+	<h1>Let's Play Hangman </h1>
+
+<!-- str bootstrap container -->
+	<div class="outline container-fluid">
+	<!-- Rem Grid sys: a master Container. Then row/column/content -->
+
+	<!-- begin Row 1 -->
+
+		<div class="outline row" id="row-1">
+			<h3>Row 1</h3>
+
+		<!-- beg Game-buttons area -->
+			<div class="outline top-items col-md-3" id="game-buttons">
+
+					<div class="outline row" id="button-row">
+
+							<button class="outline col-md-4 btn-block btn-default" id="start-button">	
+								Start
+							</button>
+							
+							<button class="outline col-md-4 btn-block btn-default" id="guess-button">	
+								Guess
+							</button>
+
+							<button class="outline col-md-4 btn-block btn-default" id="reset-button">	
+								Reset
+							</button>
+
+							<button class="outline col-md-4 btn-block btn-default" id="test-button">
+								Run Tests!
+							</button>	
+
+					</div><!-- button-row -->
+
+			</div><!-- column -->
+		<!-- end Game-buttons area -->
+
+
+		<!-- beg Game-display area -->
+
+			<div class="outline top-items col-md-6" id="game-display">
+
+				<table class="outline table" id="display-table">
+
+					<tr class="outline table-rows" id="table-row-01">
+
+						<td class="outline table-tile" id="tile-01">
+							<h3>tile 1</h3>
+						</td>
+
+						<td class="outline table-tile" id="tile-02">
+							<h3>tile 2</h3>
+						</td>
+
+						<td class="outline table-tile" id="tile-03">
+							<h3>tile 3</h3>
+						</td>
+
+					</tr>
+					
+					<tr class="outline table-rows" id="table-row-02">
+
+						<td class="outline table-tile" id="tile-04">
+							<h3>tile 4</h3>
+						</td>
+
+						<td class="outline table-tile" id="tile-05">
+							<h3>tile 5</h3>
+						</td>
+
+						<td class="outline table-tile" id="tile-06">
+							<h3>tile 6</h3>
+						</td>
+
+					</tr>
+					<tr class="outline table-rows" id="table-row-03">
+						<td class="outline table-tile" id="tile-07">
+							<h3>tile 7</h3>
+						</td>
+
+						<td class="outline table-tile" id="tile-08">
+							<h3>tile 8</h3>
+						</td>
+
+						<td class="outline table-tile" id="tile-09">
+							<h3>tile 9</h3>
+						</td>
+
+					</tr>
+				</table>
+
+			</div>
+
+		<!-- end Game-display area -->
+
+		<!-- beg Game-score area -->
+			<div class="outline top-items col-md-3" id="game-score">
+			</div>
+		<!-- end game-scores -->
+
+		</div><!-- Row 1 -->
+	<!-- end Row 1 -->
+
+		<div class="outline row" id="row-2">
+				<h3>Row 2</h3>
+
+			<div class="outline col-md-3">
+			</div>
+
+			<div class="outline col-md-6" id="game-word">
+			</div>
+			
+			<div class="outline col-md-3">
+			</div>
+
+		</div>
+
+		<div class="outline row" id="row-3">
+				<h3>Row 3</h3>
+
+			<div class="outline col-md-3">
+			</div>
+	
+			<div class="outline col-md-6" id="game-hint">
+			</div>
+
+			<div class="outline col-md-3">
+			</div>
+	
+		</div>
+
+		<div class="outline row" id="row-4">
+				<h3>Row 4</h3>
+
+			<div class="outline col-md-3">
+			</div>
+
+			<div class="outline col-md-6" id="game-keyboard">
+			</div>
+
+			<div class="outline col-md-3">
+			</div>
+
+		</div>
+
+	</div><!-- bootstrap container-->
+<!-- end boot container -->
+
+  <!-- inser js script here -->
+  <script type="text/javascript" src="display.js"></script>
+  <script type="text/javascript" src="test.js"></script>
+
+</body>
+
+</html>
