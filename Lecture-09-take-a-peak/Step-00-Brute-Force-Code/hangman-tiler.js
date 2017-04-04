@@ -15,7 +15,7 @@
 
   var picArray = ['tile01','tile02','tile03','tile04','tile05','tile06','tile07','tile08','tile09']
 
-  var tileArray = document.getElementsByClassName("board-cells")
+  // var tileArray = document.getElementsByClassName("board-cells")
 
 
   var removeTile = function() {
