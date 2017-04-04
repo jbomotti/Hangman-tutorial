@@ -47,11 +47,20 @@ Mow, let's Fix the code for the "Test" button- Making it as a standalone button 
 #### 0x.  Readjust the Bootstrap classe from `col-md-4` to `col-md-3`, allowing for 4 buttons
 
 
-
-
 ### In your `test.js` folder:
 
-####0x. 
+#### 0x. Create a random number generator
+
+```javascript
+
+var randNum = function (min, max) {
+  // --> Returns a random integer between min (included) and max (included)
+// --> Using Math.round() will give you a non-uniform distribution!
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min )) + min;
+}
+```
 
 
 ## Building the `Tile` objects array
