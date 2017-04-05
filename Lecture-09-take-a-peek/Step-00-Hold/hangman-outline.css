@@ -1,0 +1,198 @@
+/* ===============>>> OUTLINE styling */
+  .outline {
+    /*outline:1px solid orange;*/
+    /*margin:10px 10px 10px 10px;*/
+    color: orange;
+  }
+  .outline2 {
+  	/*outline:1px solid purple;*/
+  	/*margin:10px 10px 10px 10px;*/
+    color: orange;
+  }
+
+/* ===============>>> GAME-TITLE */
+
+  /* padding the top rows */
+#game-row-1-2,
+#game-row-1-1,
+#guess-counter,
+#guess-area {
+  padding: 2em 0em 2em 0em;
+}
+
+#middle-row {
+  /*padding: 0em 2.5em 2.5em 1em;*/
+}
+
+#bottom-row {
+  padding: 0em 2.5em 2.5em 1em;
+}
+
+#top-space-rit {
+  /*margin: auto;*/
+  /*padding: 0em 2em 2em 2em;*/
+  /*background-color: lime;*/
+  /*height: 350px;*/
+  /*display: block;*/
+}
+
+#top-space-mid {
+  padding: 0em 2em 2em 2em;
+  text-align: center;
+}
+
+#game-title {
+  color:orange;
+  text-align: center;
+  margin: auto;
+  /*font-size: 2em;*/
+  /*position:fixed;*/
+  /*left:0px;*/
+  /*top:0px;*/
+}
+
+#guess-counter,
+#remaining-guesses {
+  color:orange;
+  text-align: center;
+  /*background-color: lime;*/
+  /*font-size: 2em;*/
+  /*position:fixed;*/
+  /*right:05px;*/
+  margin: auto;
+  /*top:0px;*/
+}
+
+
+/* ===============>>> GAMEBOARD display */
+  /* Set table style */
+  #game-board {
+    width: 100%;
+    height: 300px;
+    margin:auto;
+    outline: 1px solid grey;
+    text-align: center;
+    margin-top: 20px;
+    /*background-color: orange;*/
+    /* center the table horizontally */
+  }
+
+  /* Set table background */
+  #game-board {
+  	/* Use a Frankenstein background image*/
+  	background: url("https://media.newsela.com/article_media/2016/08/frankenstein-anniversary-1e909306.jpg.885x497_q90_box-0%2C298%2C1366%2C1066_crop_detail.jpg");
+  	/* BUG: Must use background size to get image to fit */
+  	background-size: 100% 100%;
+    background-repeat: no-repeat;
+  	/* 'no repeat fixed center' gives it a 3d scroll effect */
+  }
+
+  /* Create table Div styling */
+  .board-cells {
+    background: whitesmoke;
+    opacity: 0.98; 
+    height: 100%;pp
+    width:auto;
+
+    /* hide the text values by blending in background */
+    color: whitesmoke;
+  }
+
+/* ===============>>> TARGET WORD display */
+  #word-hint {
+    /* center the table horizontally */
+    width: auto;
+    margin:auto;
+    padding: 0.5em 0em 0.5em 0em;
+    text-align: center;
+  }
+
+  .single-letter {
+
+  	outline: solid lightgrey;
+  	background-color: white;
+  	color: white;
+  	font-size: 2.5em;
+  	text-align: center;
+  	width: 50px;
+  	height: 75px;
+    margin: auto;
+  }
+
+/* ===============>>> VIRTUAL KEYBOARD area */
+  /* Set up Alphabet coding area*/
+  #alphabet-area {
+  	/* keyboard layout*/
+    padding:10px 10px 10px 10px;
+    width: auto;
+    height: auto;
+
+    /* center the table horizontally */
+    margin:auto;
+
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  /* styling for the list items in alphabet */
+  #alphabet-area li {
+    /*section layout*/
+
+    /* start with float to get the elements to align*/
+    /* float: left;*/
+    
+    /* display each div on a separate line */
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    border:1px solid grey;
+    border-radius: 5px;
+
+    /*outline:1px solid orangered;*/
+    list-style: none;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    font-size: 2em;
+    cursor:pointer;
+  }
+
+  li:hover {
+    background-color: orange;
+    color: white;    
+  }
+
+/* ===============>>> WORD REVEAL CSS */
+
+  #word-table {
+    /*set margin auto to center the sample word*/
+  	margin:auto;
+    margin-bottom: 5px;
+  }
+    /* Allow dashes to show */
+    /* Class is set in .js so need extra '-' to represent a dash*/
+  .letter-- {
+    color:darkgrey;
+    background-color: whitesmoke;
+  }
+
+  /*add box to showcase an answer to the word guess*/
+  #guessResult {
+    background-color: white;
+    border: 2px solid black;
+    width: 150px;
+    height: 25px;
+  }
+
+/* ===============>>> BUTTONS area */
+
+  .game-button {
+    width: 100%;
+    /*margin: autoalp;*/
+  }
+
+/* ===============>>> FOOTER area */
+
+
+
+
+
