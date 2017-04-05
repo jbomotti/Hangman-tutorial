@@ -27,7 +27,6 @@ var keyButton = function(name,letter) {
 var Keyboard = function(letter){
 	// create a function to make letter objects for the hash
 
-
 	this.letters = [];
 
 }

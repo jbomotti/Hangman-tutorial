@@ -19,7 +19,6 @@
   var resetButton = document.getElementById("reset-button");
 
 
-
 // ---- FUNCTIONS ----
 
 // ===========>>> Create fn to INITIALIZE the game
