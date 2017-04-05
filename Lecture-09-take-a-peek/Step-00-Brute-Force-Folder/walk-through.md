@@ -15,11 +15,11 @@ In `hangman.js`:
 - Line 30:  Make a keyboard objects
 
 - Line 40:  Start making some helpful functions
-	-- initialize
-	-- reset
-	-- get the secret word from user
-	-- get a hint from user
-	-- Setup the Board!
+	-- initialize [43]
+	-- reset [72]
+	-- get the secret word from user [92]
+	-- get a Hint from user [107]
+	-- Setup the Board! [122]
 
 - Line 266: Set the buttons event handlers
 
